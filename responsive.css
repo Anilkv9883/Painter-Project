@@ -1,0 +1,170 @@
+/* responsive for tab  */
+@media screen and (max-width:991px) {
+
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white  !important;
+        /* text-shadow: 0px 0px 2px white; */
+    }
+    .testimonials .test-des p{
+        color: white;
+    }
+    .testimonials .test-des h4{
+        color: white;
+    }
+    .project .p-content p{
+        color: white;
+    }
+
+    /* header style  */
+    header{
+        display: none;
+    }
+
+    /* navigation bar  */
+    nav .right-nav{
+        display: none;
+    }
+
+    /* section 1 css  */
+    .section1 .content {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    /* section 2  style  */
+    .section2 .cards1{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .section2 .card{
+        width: 80%;
+        margin: auto;
+    }
+
+    /* services section  */
+    .services h1{
+        width: 50%;
+    }
+    .service{
+        min-width: 45%;
+     
+    }
+
+    /* form section  */
+    .form form{
+        width: 80%;
+        margin: auto;
+    }
+
+    /* team member section  */
+    .members{
+        
+    }
+    .members .member{
+        width: 45%;
+    }
+
+    /* testimonials  */
+    .test-des{
+        width: 90%;
+    }
+    .article-cards .a-card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .article-cards {
+        flex-wrap: wrap;
+    }
+
+    /* <!-- project contact section  -->  */
+    .project .p-content {
+        width: 90%;
+    
+    }
+    .footer-1 .space>div {
+        width: 45%;
+        margin-bottom: 45px;
+    }
+    .footer-1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+}
+
+/* responsive for tab  */
+@media screen and (max-width:768px) {
+
+    /* section  */
+    .section1 .content h1{
+        font-size: 55px;
+    }
+    .section1 .content p{
+        font-size: 25px;
+    }
+ 
+    
+
+    /* services section  */
+    .services h1{
+        width: 100%;
+    }
+    .service{
+        min-width: 80%;
+    }
+
+    /* form section  */
+    .form form{
+        width: 95%;
+        /* margin: auto; */
+    }
+
+    /* team member section  */
+    .members{
+        
+    }
+    .members .member{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   /* article section  */
+   .article h1 {
+    width: 100%;
+    margin: auto;
+}
+   
+    .article-cards .a-card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .article-cards {
+        flex-wrap: wrap;
+    }
+
+    /* <!-- project contact section  -->  */
+    .project .p-content {
+        width: 90%;
+    
+    }
+    .footer-1 .space > div {
+        width: 100%;
+        padding: 25px;
+        
+    }
+    footer .space{
+        display: block;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    
+}
+
+
